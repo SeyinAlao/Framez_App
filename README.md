@@ -9,9 +9,17 @@ This project demonstrates a **modern, scalable, and clean mobile app architectur
 
 ---
 
+### 🔴 Live Demo (Hosted Build)
+
+**Hosted on Expo's servers (Direct APK Link):**
+
+https://expo.dev/accounts/seyina/projects/framez/builds/3dbc3ef8-65d2-46b9-81bf-79ece9d82260
+
+*Note: This link allows direct download of the final APK file for installation on any Android device.*
+
+
 ## 🔴 Live Demo (Appetize.io)
 👉 [View the live demo here](https://appetize.io/app/b_zxhcinwdjcwrzvihsi5jqsxzda)  
-
 
 ---
 
