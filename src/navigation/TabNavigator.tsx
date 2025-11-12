@@ -7,6 +7,7 @@ import CreateScreen from "../screens/CreateScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import  LogoutScreen  from "../screens/LogoutScreen";
 import { useSafeAreaInsets } from "react-native-safe-area-context"; 
+import { Platform } from "react-native";
 
 const Tab = createBottomTabNavigator();
 
@@ -19,8 +20,10 @@ export default function TabNavigator() {
         tabBarStyle: {
           backgroundColor: "#000",
           borderTopWidth: 0,
-          height: 60,
-          paddingBottom: insets.bottom,
+          height: 60 + (Platform.OS === 'android' ? Math.max(insets.bottom, 20) : insets.bottom),
+          paddingBottom: Platform.OS === 'android' ? Math.max(insets.bottom, 20) : insets.bottom,
+
+
         },
         tabBarActiveTintColor: "#fff",
         tabBarInactiveTintColor: "#888",
