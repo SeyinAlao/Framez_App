@@ -16,7 +16,7 @@ This project demonstrates a **modern, scalable, and clean mobile app architectur
 ---
 
 ## 🎬 Video Walkthrough
-🎥 [Watch the demo video here](#)  
+🎥 [Watch the demo video here](https://drive.google.com/file/d/1yZDMQIN5GQ23fJ2CMm_7HG3PHm19BxUj/view?usp=sharing)  
 
 
 ---
