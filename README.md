@@ -10,14 +10,14 @@ This project demonstrates a **modern, scalable, and clean mobile app architectur
 ---
 
 ## 🔴 Live Demo (Appetize.io)
-👉 [View the live demo here](#)  
-*(Replace `#` with your Appetize.io demo link)*
+👉 [View the live demo here](https://appetize.io/app/b_zxhcinwdjcwrzvihsi5jqsxzda)  
+
 
 ---
 
 ## 🎬 Video Walkthrough
 🎥 [Watch the demo video here](#)  
-*(Replace `#` with your 2–3 minute video link)*
+
 
 ---
 
