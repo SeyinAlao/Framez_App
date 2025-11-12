@@ -6,10 +6,12 @@ import HomeScreen from "../screens/HomeScreen";
 import CreateScreen from "../screens/CreateScreen";
 import ProfileScreen from "../screens/ProfileScreen";
 import  LogoutScreen  from "../screens/LogoutScreen";
+import { useSafeAreaInsets } from "react-native-safe-area-context"; 
 
 const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
+  const insets = useSafeAreaInsets();
   return (
     <Tab.Navigator
       screenOptions={{
@@ -18,6 +20,7 @@ export default function TabNavigator() {
           backgroundColor: "#000",
           borderTopWidth: 0,
           height: 60,
+          paddingBottom: insets.bottom,
         },
         tabBarActiveTintColor: "#fff",
         tabBarInactiveTintColor: "#888",

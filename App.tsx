@@ -5,6 +5,7 @@ import { auth } from './src/firebase/config';
 import AuthStack from './src/navigation/AuthStack';
 import TabNavigator from './src/navigation/TabNavigator';
 import { ActivityIndicator, View } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null);
@@ -35,8 +36,10 @@ export default function App() {
   }
 
   return (
-    <NavigationContainer>
-      {user ? <TabNavigator /> : <AuthStack />}
-    </NavigationContainer>
+    <SafeAreaProvider>
+      <NavigationContainer>
+        {user ? <TabNavigator /> : <AuthStack />}
+      </NavigationContainer>
+    </SafeAreaProvider>
   );
 }
